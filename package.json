@@ -1,0 +1,26 @@
+{
+  "name": "globbit",
+  "version": "1.0.0",
+  "description": "List files in folders using 'glob' syntax and gruntjs 'expand' algorithm.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibotsivad/globbit.git"
+  },
+  "keywords": [
+    "glob",
+    "expand",
+    "cli"
+  ],
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/saibotsivad/globbit/issues"
+  },
+  "homepage": "https://github.com/saibotsivad/globbit#readme",
+  "dependencies": {
+    "dot-prop": "^4.1.1",
+    "glob": "^7.1.2",
+    "minimist": "^1.2.0"
+  }
+}
