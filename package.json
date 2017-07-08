@@ -2,7 +2,9 @@
   "name": "globbit",
   "version": "1.0.0",
   "description": "List files in folders using 'glob' syntax and gruntjs 'expand' algorithm.",
-  "main": "index.js",
+  "bin": {
+    "globbit": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saibotsivad/globbit.git"
