@@ -1,13 +1,8 @@
-const dotProp = require('dot-prop')
 const glob = require('glob')
-const minimist = require('minimist')
+const argv = require('minimist')(process.argv.slice(2))
 
-const argv = minimist(process.argv.slice(2))
-
-const options = {}
-Object.keys(argv)
-    .filter(key => key !== '_')
-    .forEach(key => dotProp.set(options, key, argv[key]))
+const options = Object.assign({}, argv)
+delete options._
 
 const get = p => glob.sync(p, options)
 const flatten = (accumulator, files) => {
