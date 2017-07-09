@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const glob = require('glob')
 const argv = require('minimist')(process.argv.slice(2))
 
