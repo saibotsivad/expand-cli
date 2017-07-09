@@ -1,6 +1,6 @@
 {
   "name": "globbit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "List files in folders using 'glob' syntax and gruntjs 'expand' algorithm.",
   "bin": "index.js",
   "repository": {
