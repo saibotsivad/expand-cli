@@ -1,5 +1,7 @@
 # globbit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/globbit.svg)](https://greenkeeper.io/)
+
 List files in folders using 'glob' syntax and gruntjs 'expand' algorithm.
 
 ## install
